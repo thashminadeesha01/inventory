@@ -11,7 +11,7 @@ export default function InventoryPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className=" bg-gray-100 ">
       {/* Main content */}
       <div className="w-full p-3 sm:p-4 md:p-6 bg-gray-50">
 

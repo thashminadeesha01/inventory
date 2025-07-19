@@ -12,7 +12,7 @@ export default function InventoryPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="bg-gray-100 ">
       {/* Main content */}
       <div className="w-full p-3 sm:p-4 md:p-6 bg-gray-50">
         {/* Header */}
@@ -73,10 +73,10 @@ export default function InventoryPage() {
                   {/* Quantity */}
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2">
                     <label className="text-sm font-medium min-w-0 sm:min-w-[80px] lg:min-w-[100px]">
-                      Qty
+                      Quantity
                     </label>
                     <input
-                      type="text"
+                      type="number"
                       value={qty}
                       onChange={(e) => setQty(e.target.value)}
                       className="w-full sm:flex-1 lg:w-60 border rounded-md px-2 py-1.5 sm:py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
